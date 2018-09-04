@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>虎奔视频教程地址表</title>
+	<link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			for(var i=1;i<=29;i++){
+				$("<a href='http://www.chinahuben.com/z/wenzijx/video_parse/O/"+i+"-1.html' target='blank' class='list-group-item'>Word第"+i+"套</a>").appendTo('#dword');
+				$("<a href='http://www.chinahuben.com/z/wenzijx/video_parse/O/"+i+"-2.html' target='blank' class='list-group-item'>Excel第"+i+"套</a>").appendTo('#dexcel');
+				$("<a href='http://www.chinahuben.com/z/wenzijx/video_parse/O/"+i+"-3.html' target='blank' class='list-group-item'>PPT第"+i+"套</a>").appendTo('#dppt');
+			}			
+		})
+	</script>
+	<style>
+		a.list-group-item{
+			color: #666;
+			text-align: center;
+			font-size: 18px;
+		}
+		a.list-group-item:hover{
+			background-color: #007bff;
+			color: #fff;
+			font-weight: bold;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-4" id="dword">
+				<h3 class="list-group-item active">字处理视频教程</h3>	
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4" id="dexcel">
+				<h3 class="list-group-item active">电子表格视频教程</h3>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4" id="dppt">
+				<h3 class="list-group-item active">幻灯片视频教程</h3>			
+			</div>        
+		</div>
+	</div>
+</body>
+</html>
