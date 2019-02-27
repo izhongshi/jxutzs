@@ -7,8 +7,8 @@
 
 [测试html](https://izhongshi.github.io/jxutzs/test.html)
 
-[虎奔二级MSOffice视频教程](https://izhongshi.github.io/jxutzs/hb.html)
+[虎奔二级MSOffice视频教程](https://izhongshi.github.io/jxutzs/index.html)
 
-[网站课html演示地址](https://izhongshi.github.io/jxutzs/index.html)
+[网站课html演示地址](https://izhongshi.github.io/jxutzs/web.html)
 
 
