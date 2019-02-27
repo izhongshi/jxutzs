@@ -1,5 +1,7 @@
 # 不谈玩转github，入门github学习
 
+[语法教程](https://www.cnblogs.com/zachary93/p/6106829.html)
+
 <https://izhongshi.github.io/zs-zone>
 
 
